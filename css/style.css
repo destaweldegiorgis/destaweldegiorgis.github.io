@@ -1,0 +1,25 @@
+body{
+    margin-left:100px;
+}
+h2{
+    color:#4E9CAF;
+}
+
+img{
+    width: 180px;
+    height:180px;
+    margin-left: 50px;
+}
+#copyright{
+    font-weight:700;
+}
+#address{
+    font-weight: 400;
+}
+footer{
+    margin-left: 30px;
+}
+#email{
+    text-decoration: underline;
+    color:mediumblue;
+}
