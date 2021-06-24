@@ -1,3 +1,11 @@
+
+/*
+    This the CSS code which affects the look-like of the 
+    HTML page tmnt.html. It has used images, text and other 
+    decorations to format the background, forground and dimensions
+    of the HTML elements in the page.
+*/
+
 body{
     background-image: url("../images/background.png");
     margin: 10px;
