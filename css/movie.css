@@ -14,10 +14,10 @@ dt{
 }
 #page{
     width:69.1%;
-    height:53px;
+    height:40px;
     position: absolute;
     top: 1182px;
-    right:262px;
+    right:255px;
     border-radius: 20px;
     background-color: #A2B964;
 }
@@ -74,7 +74,7 @@ dt{
 }
 #imageDiv{    
     width:98.7%;
-    height: 335px;
+    height: 330px;
     background-image: url("../images/tmnt.png");
     background-repeat: repeat; 
     border-radius: 20px;   
@@ -82,7 +82,7 @@ dt{
 #lookUpDiv{
     margin-top: 0px;
     width:98%;
-    min-height: 487px;
+    min-height: 485px;
     background-color: #A2B964;
 }
 #generalOverview{
