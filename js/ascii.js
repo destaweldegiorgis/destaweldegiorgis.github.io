@@ -16,7 +16,7 @@ $(()=>{
         state = null;
         setTimeout(()=>{
             goAnimate();
-        },50);
+        },100);
      });
     
     $('#animation').change(animationFrames);//executes when the animation combobox is changed    
