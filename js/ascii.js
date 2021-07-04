@@ -41,14 +41,12 @@ $(()=>{
         }
         
         let chunckFrames = allFrames.split("=====\n");
-        
-        let i = 0;
-        let interval = setInterval(() => {                      
-            $("#text-area").val(chunckFrames[i]);
-            i += 1;
-            if (i >= chunckFrames.length) {
-                i=0;
-            }            
+                
+        let interval = setInterval(() => {  
+            let currValue = chunckFrames.shift();                    
+            $("#text-area").val(currValue);
+            chunckFrames.push(currValue);
+                       
             speed = $("#turbo").is(":checked")? 50 : 250; 
             if(!state){// state will be evaluated to 'true' if it has any meaningful value.
                 clearInterval(interval);
