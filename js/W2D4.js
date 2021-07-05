@@ -45,7 +45,7 @@ him.initialize("Adam", 45);
 
 
 /* ===== Loggin to the Console =======  */
-console.log("/*=======  Logging to the Cosole  ======*/");
+console.log("/*=======  Logging to the Console  ======*/");
 
 console.log("Q1:- This is not and never don't nice house".filter("not ", 'never ', 'don\'t '));
 
