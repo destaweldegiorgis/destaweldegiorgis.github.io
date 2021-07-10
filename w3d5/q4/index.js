@@ -22,18 +22,6 @@ app.get('/',(req, res) =>{
             </form> </body> </html>`);
 });
 
-const date = new Date();
-const hour = date.getHours();
-
-const path = require('path')
-
-if(hour>=6 && hour<=18){
-    app.use('/css', express.static(path.join(__dirname, 'css')))
-}else{
-    app.use('/css', express.static(path.join(__dirname, 'css')))
-}
-
-
 app.use(express.urlencoded()); // the middleware that is used to parse the post body
 
 app.post('/result',(req,res) =>{
