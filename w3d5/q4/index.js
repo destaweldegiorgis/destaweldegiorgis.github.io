@@ -33,7 +33,7 @@ app.post('/result',(req,res) =>{
     }else{
         content = `Your name is ${name} and age is ${age}`;
     }
-    res.redirect(303,'/output?name=Desta&age=34');
+    res.redirect(303,'/output?name= ${name}&age=${age}');
 });
 
 app.get('/output', (req, res) => {
